@@ -1,10 +1,10 @@
 %define		_lang		da
 Summary:	Danish resources for Iceweasel
-Summary(pl.UTF-8):	Duńskie pliki językowe dla Iceweasel
+Summary(pl.UTF-8):	Duńskie pliki językowe dla Iceweasela
 Name:		iceweasel-lang-%{_lang}
 Version:	3.0.5
 Release:	1
-License:	GPL
+License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
 # Source0-md5:	0cc735eefa89bd136c4d44f5ee441d1e
@@ -25,7 +25,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Danish resources for Iceweasel.
 
 %description -l pl.UTF-8
-Duńskie pliki językowe dla Iceweasel.
+Duńskie pliki językowe dla Iceweasela.
 
 %prep
 

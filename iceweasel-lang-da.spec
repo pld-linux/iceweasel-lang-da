@@ -2,12 +2,12 @@
 Summary:	Danish resources for Iceweasel
 Summary(pl.UTF-8):	Duńskie pliki językowe dla Iceweasela
 Name:		iceweasel-lang-%{_lang}
-Version:	3.0.10
+Version:	3.0.11
 Release:	1
 License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	d387c9e250746ce86a56a98094992de5
+# Source0-md5:	a0fa01dfdcb849bdc253601f31ec5294
 URL:		http://www.mozilla.org/
 BuildRequires:	sed >= 4.0
 BuildRequires:	unzip
